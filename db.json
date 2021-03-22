@@ -1,0 +1,56 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "author": 1,
+      "title": "json-server 1",
+      "description": "typicode 1 typicode 1 typicode 1 typicode 1 typicode 1"
+    },
+    {
+      "id": 2,
+      "author": 1,
+      "title": "json-server 2",
+      "description": "typicode 2 typicode 2 typicode 2 typicode 2 typicode 2 typicode 2"
+    },
+    {
+      "id": 3,
+      "author": 2,
+      "title": "json-server 3",
+      "description": "typicode 3 typicode 3 typicode 3 typicode 3 typicode 3 typicode 3 typicode 3 typicode 3 "
+    },
+    {
+      "id": 4,
+      "author": 2,
+      "title": "json-server 4",
+      "description": "typicode 4 typicode 3 typicode 3 typicode 3 typicode 3 typicode 3 typicode 3 typicode 3 "
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7,
+      "author": 2,
+      "title": "json-server 7",
+      "description": "typicode 7 typicode 3"
+    },
+    {
+      "id": 8,
+      "author": 2,
+      "title": "json-server 7",
+      "description": "typicode 7 typicode 3"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Piter"
+    },
+    {
+      "id": 2,
+      "name": "Egor"
+    }
+  ]
+}
