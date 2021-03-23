@@ -13,12 +13,10 @@
  **/
 
 import express, {Router, Request, Response} from "express";
-import {check} from "express-validator";
 
 import UserController from "./UserController";
 import UsersController from './UsersController';
 import UserAuthController from "./UserAuthController";
-import UserRoleMiddleware from "./middleware/UserRoleMiddleware";
 
 const authRouter: Router = express.Router();
 const authorRouter: Router = express.Router();
