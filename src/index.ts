@@ -6,7 +6,7 @@ import {appConfig} from "./config";
 import appRouter from "./router";
 import passport from "passport";
 
-const PORT = appConfig.PORT;
+const PORT = process.env.PORT || appConfig.PORT;
 
 const app: Application = express();
 
