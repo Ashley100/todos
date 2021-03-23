@@ -2,8 +2,8 @@ import express, { Application } from 'express';
 import session, {Session, SessionOptions} from "express-session";
 import mongoose from 'mongoose';
 import MongoStore from "connect-mongo";
-import {appConfig} from "./config";
-import appRouter from "./router";
+import {appConfig} from "./src/config";
+import appRouter from "./src/router";
 import passport from "passport";
 
 const PORT = process.env.PORT || appConfig.PORT;
