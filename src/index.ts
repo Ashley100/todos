@@ -2,11 +2,11 @@ import express, { Application } from 'express';
 import session, {Session, SessionOptions} from "express-session";
 import mongoose from 'mongoose';
 import MongoStore from "connect-mongo";
-import {appConfig} from "./src/config";
-import appRouter from "./src/router";
+import {appConfig} from "./config";
+import appRouter from "./router";
 import passport from "passport";
 
-const PORT = process.env.PORT || appConfig.PORT;
+const PORT: string|number = process.env.PORT || appConfig.PORT;
 
 const app: Application = express();
 
