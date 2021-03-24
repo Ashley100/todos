@@ -5,11 +5,6 @@
   "engines": { "node": "14.16.0" },
   "main": "index.js",
   "scripts": {
-    "start_test": "node dist/index.js",
-    "dev_test": "nodemon src/index.ts",
-    "build_test": "tsc -p .",
-    "postinstall_test": "tsc",
-
     "start": "ts-node src/index.ts",
     "dev": "nodemon -x ts-node src/index.ts"
   },

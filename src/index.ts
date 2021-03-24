@@ -98,3 +98,12 @@ appRouter(app);
 
 
 export default app;
+
+
+/*
+    "start_test": "node dist/index.js",
+    "dev_test": "nodemon src/index.ts",
+    "build_test": "tsc -p .",
+    "postinstall_test": "tsc",
+
+* */
