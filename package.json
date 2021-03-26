@@ -1,7 +1,7 @@
 {
   "name": "todos-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Some project description...",
   "engines": { "node": "14.16.0" },
   "main": "src/index.ts",
   "scripts": {
